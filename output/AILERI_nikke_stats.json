@@ -1,0 +1,297 @@
+[
+    {
+        "unit_url": "https://www.blablalink.com/shiftyspad/nikke/835?openid=MjkwODAtNjEwODE0NzI2MzAzNDIwODQyNA==",
+        "unit_name": "Asuka: WILLE",
+        "overview": [
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "62.25%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "28.56%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "242.85%"
+            },
+            {
+                "stat": "Increase Critical Rate",
+                "value": "3.66%"
+            },
+            {
+                "stat": "Increase Critical Damage",
+                "value": "6.64%"
+            }
+        ],
+        "substats": [
+            {
+                "stat": "Increase Critical Damage",
+                "value": "6.64%"
+            },
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "20.75%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "44.28%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "85.37%"
+            },
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "19.35%"
+            },
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "22.15%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "13.93%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "56.60%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "56.60%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "14.63%"
+            },
+            {
+                "stat": "Increase Critical Rate",
+                "value": "3.66%"
+            }
+        ],
+        "skills": [
+            {
+                "skill": "Anti A.T. Field",
+                "level": "9"
+            },
+            {
+                "skill": "Emergency Repair",
+                "level": "8"
+            },
+            {
+                "skill": "Annihilation State",
+                "level": "9"
+            }
+        ],
+        "timestamp": "2025-03-17 09:20:44"
+    },
+    {
+        "unit_url": "https://www.blablalink.com/shiftyspad/nikke/832?openid=MjkwODAtNjEwODE0NzI2MzAzNDIwODQyNA==",
+        "unit_name": "Mari",
+        "overview": [],
+        "substats": [],
+        "skills": [
+            {
+                "skill": "Precision Sniping",
+                "level": "7"
+            },
+            {
+                "skill": "Full Focus",
+                "level": "7"
+            },
+            {
+                "skill": "GPS Guided Missile",
+                "level": "8"
+            }
+        ],
+        "timestamp": "2025-03-17 09:20:46"
+    },
+    {
+        "unit_url": "https://www.blablalink.com/shiftyspad/nikke/830?openid=MjkwODAtNjEwODE0NzI2MzAzNDIwODQyNA==",
+        "unit_name": "Asuka",
+        "overview": [
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "35.90%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "8.29%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "194.46%"
+            },
+            {
+                "stat": "Increase Critical Rate",
+                "value": "4.35%"
+            },
+            {
+                "stat": "Increase DEF",
+                "value": "22.92%"
+            }
+        ],
+        "substats": [
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "23.56%"
+            },
+            {
+                "stat": "Increase DEF",
+                "value": "11.81%"
+            },
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "12.34%"
+            },
+            {
+                "stat": "Increase DEF",
+                "value": "11.11%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "56.60%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "8.29%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "64.82%"
+            },
+            {
+                "stat": "Increase Critical Rate",
+                "value": "4.35%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "73.04%"
+            }
+        ],
+        "skills": [
+            {
+                "skill": "Competitiveness",
+                "level": "7"
+            },
+            {
+                "skill": "Assault Tactics",
+                "level": "10"
+            },
+            {
+                "skill": "Piercing Bullets",
+                "level": "7"
+            }
+        ],
+        "timestamp": "2025-03-17 09:20:49"
+    },
+    {
+        "unit_url": "https://www.blablalink.com/shiftyspad/nikke/195?openid=MjkwODAtNjEwODE0NzI2MzAzNDIwODQyNA==",
+        "unit_name": "Alice: Wonderland Bunny",
+        "overview": [],
+        "substats": [],
+        "skills": [
+            {
+                "skill": "Carrot and Bunny Party",
+                "level": "5"
+            },
+            {
+                "skill": "More Carrots",
+                "level": "5"
+            },
+            {
+                "skill": "Precious Big Carrot",
+                "level": "5"
+            }
+        ],
+        "timestamp": "2025-03-17 09:20:57"
+    },
+    {
+        "unit_url": "https://www.blablalink.com/shiftyspad/nikke/191?openid=MjkwODAtNjEwODE0NzI2MzAzNDIwODQyNA==",
+        "unit_name": "Alice",
+        "overview": [
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "92.81%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "20.80%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "234.64%"
+            },
+            {
+                "stat": "Increase Charge Speed",
+                "value": "9.26%"
+            }
+        ],
+        "substats": [
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "20.75%"
+            },
+            {
+                "stat": "Increase Charge Speed",
+                "value": "4.63%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "64.82%"
+            },
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "22.15%"
+            },
+            {
+                "stat": "Increase Charge Speed",
+                "value": "4.63%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "52.50%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "10.40%"
+            },
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "20.75%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "52.50%"
+            },
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "29.16%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "10.40%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "64.82%"
+            }
+        ],
+        "skills": [
+            {
+                "skill": "Energizing Carrot",
+                "level": "10"
+            },
+            {
+                "skill": "Healthy Carrot",
+                "level": "8"
+            },
+            {
+                "skill": "Wonderland",
+                "level": "10"
+            }
+        ],
+        "timestamp": "2025-03-17 09:20:59"
+    }
+]

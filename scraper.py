@@ -2,6 +2,9 @@ import time
 import json
 import sys
 import csv
+import ctypes
+import subprocess
+import socket
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -13,10 +16,60 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import os
 
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except Exception:
+        return False
+
+# Only attempt elevation if not already elevated and flag not present
+if not is_admin() and "--elevated" not in sys.argv:
+    print("Re-launching as admin, master...")
+    new_args = sys.argv + ["--elevated"]
+    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(new_args), None, 1)
+    sys.exit(0)
 
 output_dir = "output"
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
+
+def is_port_in_use(port, host="127.0.0.1"):
+    """Check if the given port is already in use."""
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        return s.connect_ex((host, port)) == 0
+
+def launch_chrome():
+    chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+    user_data_dir = r"C:\Users\eggsh\ChromeProfile"
+    debugging_port = "9222"
+    # Build the command as a string
+    cmd = f'"{chrome_path}" --remote-debugging-port={debugging_port} --user-data-dir="{user_data_dir}"'
+    print("Launching Chrome for you to log in, master...")
+    try:
+        subprocess.Popen(cmd, shell=True)
+    except Exception as e:
+        print(f"Failed to launch Chrome: {e}")
+        sys.exit(1)
+
+
+def launch_chrome_if_not_running():
+    port = 9222
+    if is_port_in_use(port):
+        print("Detected active Chrome session with remote debugging on port 9222, master.")
+    else:
+        launch_chrome()
+
+# Check if Chrome is already running; if not, launch it.
+launch_chrome_if_not_running()
+input("After logging in to Chrome, hit Enter to continue, master...")
+
+# Continue with your existing scraping workflow:
+chrome_options = Options()
+chrome_options.debugger_address = "127.0.0.1:9222"
+service = Service(ChromeDriverManager().install())
+driver = webdriver.Chrome(service=service, options=chrome_options)
+print("Connected to existing Chrome session, master.")
+
 
 def save_results_csv(results, owner_name):
     filename = f"{owner_name}_nikke_stats.csv" if owner_name != "N/A" else "nikke_stats.csv"

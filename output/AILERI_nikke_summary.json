@@ -1,0 +1,151 @@
+[
+    {
+        "unit_name": "Asuka: WILLE",
+        "overview": [
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "62.25%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "28.56%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "242.85%"
+            },
+            {
+                "stat": "Increase Critical Rate",
+                "value": "3.66%"
+            },
+            {
+                "stat": "Increase Critical Damage",
+                "value": "6.64%"
+            }
+        ],
+        "skills": [
+            {
+                "skill": "Anti A.T. Field",
+                "level": "9"
+            },
+            {
+                "skill": "Emergency Repair",
+                "level": "8"
+            },
+            {
+                "skill": "Annihilation State",
+                "level": "9"
+            }
+        ]
+    },
+    {
+        "unit_name": "Mari",
+        "overview": [],
+        "skills": [
+            {
+                "skill": "Precision Sniping",
+                "level": "7"
+            },
+            {
+                "skill": "Full Focus",
+                "level": "7"
+            },
+            {
+                "skill": "GPS Guided Missile",
+                "level": "8"
+            }
+        ]
+    },
+    {
+        "unit_name": "Asuka",
+        "overview": [
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "35.90%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "8.29%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "194.46%"
+            },
+            {
+                "stat": "Increase Critical Rate",
+                "value": "4.35%"
+            },
+            {
+                "stat": "Increase DEF",
+                "value": "22.92%"
+            }
+        ],
+        "skills": [
+            {
+                "skill": "Competitiveness",
+                "level": "7"
+            },
+            {
+                "skill": "Assault Tactics",
+                "level": "10"
+            },
+            {
+                "skill": "Piercing Bullets",
+                "level": "7"
+            }
+        ]
+    },
+    {
+        "unit_name": "Alice: Wonderland Bunny",
+        "overview": [],
+        "skills": [
+            {
+                "skill": "Carrot and Bunny Party",
+                "level": "5"
+            },
+            {
+                "skill": "More Carrots",
+                "level": "5"
+            },
+            {
+                "skill": "Precious Big Carrot",
+                "level": "5"
+            }
+        ]
+    },
+    {
+        "unit_name": "Alice",
+        "overview": [
+            {
+                "stat": "Increase Element Damage Dealt",
+                "value": "92.81%"
+            },
+            {
+                "stat": "Increase ATK",
+                "value": "20.80%"
+            },
+            {
+                "stat": "Increase Max Ammunition Capacity",
+                "value": "234.64%"
+            },
+            {
+                "stat": "Increase Charge Speed",
+                "value": "9.26%"
+            }
+        ],
+        "skills": [
+            {
+                "skill": "Energizing Carrot",
+                "level": "10"
+            },
+            {
+                "skill": "Healthy Carrot",
+                "level": "8"
+            },
+            {
+                "skill": "Wonderland",
+                "level": "10"
+            }
+        ]
+    }
+]
